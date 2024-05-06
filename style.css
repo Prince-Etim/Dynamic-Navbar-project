@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    height: 100vh;
+
+}
+
+.top-container{
+    background: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+height: 100vh;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 2px;
+}
+
+.top-container h1{
+    color: white;
+    font-size: 50px;
+}
+
+.text{
+    margin: 50px 26px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    transition: background-color 0.6s;
+    align-items: center;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, .3);
+
+
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
+
+.navbar img{
+    padding-left: 24px;
+}
+
+.navbar.active{
+    background-color: black;
+}
+
+.navbar.active ul li a{
+    color: white;
+}
+
+.navbar.active a:hover{
+color: red;
+}
+
